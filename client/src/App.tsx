@@ -17,7 +17,7 @@ interface Message {
   type: 'player' | 'self' | 'system';
 }
 
-const SOCKET_URL = 'http://localhost:4000';
+const SOCKET_URL = '';
 
 function App() {
   const [socket, setSocket] = useState<Socket | null>(null);
